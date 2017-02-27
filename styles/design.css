@@ -277,28 +277,6 @@ body {
     border-color: var(--vivid-purple);
 }
 
-#back-button {
-    position: absolute;
-    margin-left: 7.82px;
-    margin-top: 2.85px;
-    width: 11.4px;
-    height: 11.4px;
-    background-color: #ffffff;
-    background: url('/images/back-button@2x.png');
-    background-size: cover;
-}
-
-#forward-button {
-    position: absolute;
-    margin-left: 26.3px;
-    margin-top: 2.85px;
-    width: 11.4px;
-    height: 11.4px;
-    background-color: #ffffff;
-    background: url('/images/forward-button@2x.png');
-    background-size: cover;
-}
-
 /* Footer containers and styles */
 #footercontainer {
     position: relative;

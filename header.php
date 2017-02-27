@@ -13,10 +13,7 @@ debug_to_console($div_class);
         <img class="seed-logo" src="/images/seed-logo@3x.png" alt="link to home page">
     </a>
     
-    <div id="navcontainer">
-        <div id="back-button"></div>
-        <div id="forward-button"></div>
-        
+    <div id="navcontainer">     
         <a href="/search">
             <img class="search-icon" src="/images/search-icon@2x.png" alt="link to search page">
         </a>
