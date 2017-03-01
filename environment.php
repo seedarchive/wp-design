@@ -35,9 +35,9 @@
             </div>
             
             <div id="bodycontainer">
-                <h2>CURIBATOR VESTIBULUM UTRICIES<br/> PLACERAT. INTERDUM TORTOR.<br/><br/></h2>
+                <h2>WHAT'S THE ECONOMY FOR?<br/><br/></h2>
                 
-                <p>Morbi nec nunc in risus molestie rhoncus. Suspendisse placerat nibh eu leo congue vestibulum. Integer tempor, ante sit amet molestie dignissim, mi lorem suscipit augue, id tincidunt dolor tortor id ex. Nullam iaculis nisi vel urna maximus vehicula. Curabitur vestibulum ultricies placerat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis eleifend nisi id tortor facilisis, et elementum tortor molestie. Etiam a purus quam. Suspendisse feugiat erat nec ante molestie, at dignissim felis condimentum. Donec imperdiet, quam eget vulputate iaculis, felis enim ultrices elit, imperdiet pretium purus nisl eu odio. <br/><br/></p>
+                <p>The current global economic model threatens basic human needs, social equity, and the life support systems of the planet.  The challenge for policy makers and citizens, alike, is to rethink our approach to the economy to yield a more enduring prosperity. <br/><br/></p>
             </div>
             
             <div class="rule black-rule"></div>
