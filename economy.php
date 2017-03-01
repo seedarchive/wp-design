@@ -33,9 +33,9 @@
             </div>
             
             <div id="bodycontainer">
-                <h2>CURIBATOR VESTIBULUM UTRICIES<br/> PLACERAT. INTERDUM TORTOR.<br/><br/></h2>
+                <h2>HOW CAN WE LIVE WITHIN<br/> THE LIMITS OF OUR PLANET?<br/><br/></h2>
                 
-                <p>Morbi nec nunc in risus molestie rhoncus. Suspendisse placerat nibh eu leo congue vestibulum. Integer tempor, ante sit amet molestie dignissim, mi lorem suscipit augue, id tincidunt dolor tortor id ex. Nullam iaculis nisi vel urna maximus vehicula. Curabitur vestibulum ultricies placerat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis eleifend nisi id tortor facilisis, et elementum tortor molestie. Etiam a purus quam. Suspendisse feugiat erat nec ante molestie, at dignissim felis condimentum. Donec imperdiet, quam eget vulputate iaculis, felis enim ultrices elit, imperdiet pretium purus nisl eu odio. <br/><br/></p>
+                <p>Our life support systems are facing catastrophic threats.  We must find new ways of existing within the constraints of the only earth we have. <br/><br/></p>
             </div>
             
             <div class="rule black-rule"></div>
