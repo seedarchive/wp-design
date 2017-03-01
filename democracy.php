@@ -33,9 +33,9 @@
             </div>
             
             <div id="bodycontainer">
-                <h2>CURIBATOR VESTIBULUM UTRICIES<br/> PLACERAT. INTERDUM TORTOR.<br/><br/></h2>
+                <h2>HOW DO WE GET OUR DEMOCRACY BACK?<br/><br/></h2>
                 
-                <p>Morbi nec nunc in risus molestie rhoncus. Suspendisse placerat nibh eu leo congue vestibulum. Integer tempor, ante sit amet molestie dignissim, mi lorem suscipit augue, id tincidunt dolor tortor id ex. Nullam iaculis nisi vel urna maximus vehicula. Curabitur vestibulum ultricies placerat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis eleifend nisi id tortor facilisis, et elementum tortor molestie. Etiam a purus quam. Suspendisse feugiat erat nec ante molestie, at dignissim felis condimentum. Donec imperdiet, quam eget vulputate iaculis, felis enim ultrices elit, imperdiet pretium purus nisl eu odio. <br/><br/></p>
+                <p>Political systems once regarded as mechanisms for solving problems are now widely regarded as part of the problem.   We need pathways for political parties and citizen movements to work better, together to refresh political agendas and bring new thinking into governments. <br/><br/></p>
             </div>
             
             <div class="rule black-rule"></div>
