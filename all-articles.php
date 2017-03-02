@@ -1,4 +1,4 @@
-<?php /* Template Name: democracy-template */ ?>
+<?php /* Template Name: all-articles-template */ ?>
 <?php $class_name = 'all-articles'; ?>
 
 <!DOCTYPE html>
