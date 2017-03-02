@@ -68,6 +68,10 @@
             
             <div class="rule purple-rule"></div>
         </div>
+        
+        <div class="squarebutton viewarticles">
+            <h4 id="boxtext"><span class="economy-text"><a class="link" href="/all-articles/">ALL ARTICLES</a></span></h4>
+        </div>
 
         <?php get_footer(); ?>
     </div> 

@@ -39,8 +39,8 @@
                 
                 <p><?php the_content(); ?></p>
                 
-                <div id="pdfbutton">
-                    <h4 id="boxtext"><span class="economy-text"><a class="pdflink" href="/articles/<?php $title = the_title_attribute('echo=0'); get_article_link($title); ?>">PDF</a></span></h4>
+                <div class="squarebutton pdf">
+                    <h4 id="boxtext"><span class="economy-text"><a class="link" href="/articles/<?php $title = the_title_attribute('echo=0'); get_article_link($title); ?>">PDF</a></span></h4>
                 </div>
             </div>
             

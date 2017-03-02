@@ -269,6 +269,7 @@ body {
 }
 
 .purple,
+.all-articles-background,
 .democracy-background {
     background-color: var(--vivid-purple);
 }
@@ -443,23 +444,34 @@ body {
 	float: right;
 }
 
-#pdfbutton {
-    width: 164px;
+.squarebutton {
     height: 34px;
-    margin-top: 30px;
-    margin-bottom: 38px;
     border-radius: 2.8px;
     background-color: #ffffff;
     box-shadow: 0 1.4px 2.8px 0 rgba(127, 104, 104, 0.3);
     border: solid 0.7px var(--bright-sky-blue);
 }
 
-#boxtext {
-    text-align: center;
+.squarebutton.pdf {
+    width: 164px;
+    margin-top: 30px;
+    margin-bottom: 38px;
 }
 
-.pdflink {
+.squarebutton.viewarticles {
+    width: 250px;
+    margin: -50px auto 60px auto;
+}
+
+#boxtext {
+    text-align: center;
+    margin: 0;
+}
+
+.link {
     display: inline-block;
+    top: 50%;
+    transform: translateY(75%);
     width: 100%;
     height: 100%;
 }

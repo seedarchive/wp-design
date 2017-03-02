@@ -2,7 +2,7 @@
 
 $query_string;
 
-$allshadows = ['home', 'search', 'article', 'contact', 'partners', 'tags'];
+$allshadows = ['home', 'search', 'article', 'contact', 'partners', 'tags', 'all-articles'];
 
 // Add all democracy related tags to this array -- keep alphabetized
 $democracy_tags = ['Anglo-European','biophysical constraints','civic relations','consumption','decoupling','degrowth','democracy','ecological macroeconomics','economic growth','freshwater use','GDP','global community','Global North','land-system change','N cycle','P cycle','policy','policy instruments','population','prosperity','resources','SCP','social capital','social justice','solidarity system','sustainability','systemic change','transition','wellbeing','well-being','workshop'];
@@ -37,6 +37,8 @@ function get_page_name($curr_page) {
        return 'search';
     } else if (strpos($curr_page, '/environment/') !== false) {
        return 'environment';
+    } else if (strpos($curr_page, '/all-articles/') !== false) {
+        return 'all-articles';
     } else if ($curr_page == '/partners/') {
        return 'partners';
     } else if ($curr_page == '/contact/') {
@@ -146,16 +148,20 @@ function get_posts_for_page($class_name) {
    Queries for a list of posts for the given page using an intersection of the selected categories
 */
 function fetch_posts($categories, $page_name) {
-    if (empty($categories) || !$categories) {
-        $categories = array($page_name);
-    }
+    if ($page_name === 'all-articles') {
+        $categories_string = '';
+    } else {
+        if (empty($categories) || !$categories) {
+            $categories = array($page_name);
+        }
     
-    if (!in_array($page_name, $categories)) {
-        array_push($categories, $page_name);
+        if (!in_array($page_name, $categories)) {
+            array_push($categories, $page_name);
+        } 
     }
     
     // category search using AND function
-    $categories_string = implode("+", $categories);
+    $categories_string = ($categories_string !== null) ?: implode("+", $categories);
     debug_to_console("category search: " . $categories_string);
     $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
     $args = array(
