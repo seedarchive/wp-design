@@ -170,6 +170,7 @@ body {
     background-image: url('/images/home-header.png');
 }
 
+.header-image.all-articles,
 .header-image.economy {
     background-image: url('/images/economy-header.png');
 }

@@ -161,7 +161,7 @@ function fetch_posts($categories, $page_name) {
     }
     
     // category search using AND function
-    $categories_string = ($categories_string !== null) ?: implode("+", $categories);
+    $categories_string = ($categories_string !== '') ?: implode("+", $categories);
     debug_to_console("category search: " . $categories_string);
     $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
     $args = array(
