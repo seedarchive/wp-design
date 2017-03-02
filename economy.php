@@ -32,9 +32,9 @@
             </div>
             
             <div id="bodycontainer">
-                <h2>HOW CAN WE LIVE WITHIN<br/> THE LIMITS OF OUR PLANET?<br/><br/></h2>
+                <h2>WHAT'S THE ECONOMY FOR?<br/><br/></h2>
                 
-                <p>Our life support systems are facing catastrophic threats.  We must find new ways of existing within the constraints of the only earth we have. <br/><br/></p>
+                <p>The current global economic model threatens basic human needs, social equity, and the life support systems of the planet.  The challenge for policy makers and citizens, alike, is to rethink our approach to the economy to yield a more enduring prosperity. <br/><br/></p>
             </div>
             
             <div class="rule black-rule"></div>
