@@ -397,4 +397,11 @@ function generate_search_query() {
     return new WP_Query($search_query);
 }
 
+function wpb_add_google_fonts() {
+    wp_enqueue_style( 'Roboto', 'https://fonts.googleapis.com/css?family=Roboto', false );
+    wp_enqueue_style( 'Alfa Slab One', 'https://fonts.googleapis.com/css?family=Alfa+Slab+One', false );
+}
+
+add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
+
 ?>

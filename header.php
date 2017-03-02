@@ -1,11 +1,3 @@
-<?php
-
-debug_to_console($_SERVER['REQUEST_URI']);
-$div_class = get_page_name($_SERVER['REQUEST_URI']);
-debug_to_console($div_class);
-
-?>
-
 <div id="headercontainer">
     <div class="header-image <?php echo $div_class ?>"></div>
         

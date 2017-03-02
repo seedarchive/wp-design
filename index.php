@@ -16,8 +16,6 @@
     
     <!-- Custom styles for this template -->
     <link href="/wp-content/themes/seed-design/styles/design.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
-
 </head>
     
 <div id="outer">
