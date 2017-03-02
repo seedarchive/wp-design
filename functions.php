@@ -4,6 +4,8 @@ $query_string;
 
 $allshadows = ['home', 'search', 'article', 'contact', 'partners', 'tags', 'all-articles'];
 
+$allcategories = ['democracy', 'environment', 'economy'];
+
 // Add all democracy related tags to this array -- keep alphabetized
 $democracy_tags = ['Anglo-European','biophysical constraints','civic relations','consumption','decoupling','degrowth','democracy','ecological macroeconomics','economic growth','freshwater use','GDP','global community','Global North','land-system change','N cycle','P cycle','policy','policy instruments','population','prosperity','resources','SCP','social capital','social justice','solidarity system','sustainability','systemic change','transition','wellbeing','well-being','workshop'];
 
@@ -148,8 +150,10 @@ function get_posts_for_page($class_name) {
    Queries for a list of posts for the given page using an intersection of the selected categories
 */
 function fetch_posts($categories, $page_name) {
+    global $allcategories;
+    
     if ($page_name === 'all-articles') {
-        $categories_string = '';
+        $categories = $allcategories;
     } else {
         if (empty($categories) || !$categories) {
             $categories = array($page_name);
@@ -161,7 +165,7 @@ function fetch_posts($categories, $page_name) {
     }
     
     // category search using AND function
-    $categories_string = ($page_name === 'all-articles') ?: implode("+", $categories);
+    $categories_string = implode("+", $categories);
     debug_to_console("category search: " . $categories_string);
     $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
     $args = array(
