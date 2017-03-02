@@ -35,7 +35,7 @@ h1 {
 h2 {
     display: inline;
     font-family: Roboto;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 900;
     font-style: normal;
     font-stretch: normal;
@@ -68,7 +68,7 @@ h3 a:visited {
 /* article authors */
 h4 {
     font-family: Roboto;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 900;
     letter-spacing: 2.1px;
     margin-bottom: 7px;
@@ -130,7 +130,7 @@ h4 a:hover {
 
 body {
     font-family: Roboto;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
