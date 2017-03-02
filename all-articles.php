@@ -26,9 +26,9 @@
        <?php get_header(); ?>
         
         <div id="main-textcontainer">
-            <div id="titlecontainer">
-                <h1 class="uppercase"><?php echo $class_name; ?></h1>
-                <div class="title-underline <?php echo $class_name; ?>-background"></div>
+            <div id="articletitlecontainer">
+                <h1 class="uppercase">ALL ARTICLES</h1>
+                <div class="title-underline <?php echo $class_name; ?>-background fixed-underline"></div>
             </div>
             
             <?php get_posts_for_page($class_name); ?>

@@ -161,13 +161,13 @@ function fetch_posts($categories, $page_name) {
     }
     
     // category search using AND function
-    $categories_string = ($categories_string !== '') ?: implode("+", $categories);
+    $categories_string = ($page_name === 'all-articles') ?: implode("+", $categories);
     debug_to_console("category search: " . $categories_string);
     $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
     $args = array(
         'category_name' => $categories_string, 
-        'orderby' => 'date',
-        'order' => 'DESC',
+        'orderby' => 'title',
+        'order' => 'ASC',
         'post_type' => 'articles',
         'post_status' => 'publish',
         'paged' => $paged
