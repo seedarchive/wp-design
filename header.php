@@ -9,7 +9,11 @@ $div_class = get_page_name($_SERVER['REQUEST_URI']);
         <img class="seed-logo" src="/images/seed-logo@3x.png" alt="link to home page">
     </a>
     
-    <div id="navcontainer">     
+    <div id="navcontainer"> 
+        <a href="/tags">
+            <img class="tags-icon" src="/images/tags-icon.png" alt="link to all tags page">
+        </a>
+        
         <a href="/search">
             <img class="search-icon" src="/images/search-icon@2x.png" alt="link to search page">
         </a>

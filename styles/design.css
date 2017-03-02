@@ -205,6 +205,14 @@ body {
     height: 18.5px;
 }
 
+.tags-icon {
+    position: absolute;
+    margin-left: 7.82px;
+    margin-top: 2.85px;
+    width: 18.5px;
+    height: 18.5px;
+}
+
 #navcontainer {
     position: relative;
     margin: auto;
