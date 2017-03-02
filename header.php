@@ -1,3 +1,7 @@
+<?php
+$div_class = get_page_name($_SERVER['REQUEST_URI']);
+?>
+
 <div id="headercontainer">
     <div class="header-image <?php echo $div_class ?>"></div>
         
