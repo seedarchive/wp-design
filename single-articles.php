@@ -47,14 +47,14 @@
             <div class="rule black-rule"></div>
             
             <div id="postlistcontainer">
-                <h4>CATEGORIES<br/><br/></h4>
+                <h4 class="article-tighttext">CATEGORIES<br/><br/></h4>
                 <?php display_categories($post, 25); ?>
-                <h4>TAGS<br/><br/></h4>
+                <h4 class="article-tighttext">TAGS<br/><br/></h4>
                 <?php display_tags_for_post($post); ?>
                 <table class="linktable">
                     <tr>
-                        <td style="width:20%"><h4>ORGANIZATION</h4></td>
-                        <td style="width:60%"><h4><span class="light economy-text"><?php echo get_post_meta(get_the_ID(), 'organization', true); ?><br/></span></h4></td>
+                        <td style="width:25%"><h4>ORGANIZATION</h4></td>
+                        <td style="width:55%"><h4><span class="light"><?php echo get_post_meta(get_the_ID(), 'organization', true); ?><br/></span></h4></td>
                     </tr>
                     <tr style="height: 10px"></tr>
                     <tr>
