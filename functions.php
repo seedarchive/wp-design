@@ -281,7 +281,7 @@ function display_tags($tags, $should_break_between_categories) {
         
         if($should_break_between_categories == TRUE) {
             $padding = ($i == 0) ? " nopadding" : "";
-            echo '<h3 class="capitalize' . $padding . '">' . $category . ' related tags<br/><br/></h3>';
+            echo '<h3 class="capitalize article-tighttext' . $padding . '"><span class="' . $category . '-text">' . $category . ' related tags<br/><br/></span></h3>';
         }
         
         for ($j = 0; $j < $num; $j++) {
