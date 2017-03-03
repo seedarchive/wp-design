@@ -152,8 +152,11 @@ function get_posts_for_page($class_name) {
 function fetch_posts($categories, $page_name) {
     global $allcategories;
     
+    $search_all = FALSE;
     if ($page_name === 'all-articles') {
-        $categories = $allcategories;
+        if (empty($categories) || !$categories) {
+            $search_all = TRUE;
+        } 
     } else {
         if (empty($categories) || !$categories) {
             $categories = array($page_name);
@@ -165,7 +168,7 @@ function fetch_posts($categories, $page_name) {
     }
     
     // category search using AND function
-    $categories_string = ($page_name === 'all-articles') ? implode(",", $categories) : implode("+", $categories);
+    $categories_string = ($search_all == TRUE) ? implode(",", $allcategories) : implode("+", $categories);
     debug_to_console("category search: " . $categories_string);
     $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
     $args = array(
