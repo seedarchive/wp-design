@@ -6,7 +6,7 @@ $div_class = get_page_name($_SERVER['REQUEST_URI']);
     <div class="header-image <?php echo $div_class ?>"></div>
         
     <a href="<?php bloginfo( 'wpurl' ); ?>">
-        <img class="seed-logo" src="/images/seed-logo@3x.png" alt="link to home page">
+        <img class="seed-logo" src="/images/seed-logo2.png" alt="link to home page">
     </a>
     
     <div id="navcontainer"> 

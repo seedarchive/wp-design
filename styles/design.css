@@ -195,10 +195,12 @@ body {
 .seed-logo {
     position: relative;
     text-align: center;
-    top: 66.1px;
-    left: 473px;
-    width: 124.4px;
-    height: 110.2px;
+    margin: 0;
+    width: 192px;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 60%);
     z-index: 2;
 }
 
