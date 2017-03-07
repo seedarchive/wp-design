@@ -57,7 +57,7 @@
             <div id="problem-textcontainer">
                 <h2><span class="economy-text">PROBLEM</span><br/><br/></h2>
                 <div id="bodycontainer">
-                    <p><span class="whitetext">The economic thinking taught in top universities still produces experts who discount environmental costs and offer failed formulas for prosperity based on unrealistic growth, whether from the remnants of the Keansian left or the still reigning neoliberal right. Meanwhile, democratic reform movements face resistance from established parties and interests, and fail to mobilize broader engagement among publics caught up in more immediate issues and economic crises. The activists calling for changes in these areas of environment, economy, or democracy too often operate in separate spheres, promoting reforms that fall short of systemic change.</span></p>
+                    <p><span class="whitetext">The economic thinking taught in top universities still produces experts who discount environmental costs and offer failed formulas for prosperity based on unrealistic growth, whether from the remnants of the Keynesian left or the still reigning neoliberal right. Meanwhile, democratic reform movements face resistance from established parties and interests, and fail to mobilize broader engagement among publics caught up in more immediate issues and economic crises. The activists calling for changes in these areas of environment, economy, or democracy too often operate in separate spheres, promoting reforms that fall short of systemic change.</span></p>
                 </div>
             </div>
         </div>
