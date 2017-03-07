@@ -47,7 +47,7 @@
                 
                 <p>The SEED Resource Center will be a smart library of resources focused on solutions for the Environment, Economy, and Democracy, with the goal of increasing cross discipline thinking and collaboration, bolstering solidarity, and breaking down the traditional silos between these interconnected fields.  The current site is a prototype version of the Center, and will evolve and expand in the next months. <br/><br/>
                     
-                In order to achieve sustainability and global equity, we need a greater understanding of the intricate networked relationships of systemic problems. SEED will provide cutting edge ideas and proposals, and illustrates their interconnectivity visually in interactive network maps, making complex newtorks intuitive and digestible. <br/><br/></p>
+                In order to achieve sustainability and global equity, we need a greater understanding of the intricate networked relationships of systemic problems. SEED will provide cutting edge ideas and proposals, and illustrates their interconnectivity visually in interactive network maps, making complex networks intuitive and digestible. <br/><br/></p>
             </div>
             
             <div class="rule yellow-rule"></div>
