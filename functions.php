@@ -134,7 +134,7 @@ function get_posts_for_page($class_name) {
             <p>Filter articles to only show those that include ALL of the selected categories</p>
             <div style="margin-bottom: 15px"></div>';
     display_categories_for_page($class_name);
-    echo '<button class="searchbutton" type="submit">Search</button>
+    echo '<button class="searchbutton" type="submit">Filter</button>
         </fieldset>   
         </form>
         <div style="margin-bottom: 15px"></div>
