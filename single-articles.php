@@ -35,10 +35,9 @@
             
                 $title = the_title_attribute('echo=0');
                 $type = get_post_meta(get_the_ID(), 'type', true);
-                debug_to_console('type' . $type);
                 $backup_link = get_post_meta(get_the_ID(), 'link', true);
                 // if post type is PDF use local copy as main link
-                if (strcmp($tpye, 'pdf') == 0) {
+                if (strcmp($type, 'pdf') == 0) {
                     $main_link = get_article_link($title);
                 } else {
                     $main_link = $backup_link;

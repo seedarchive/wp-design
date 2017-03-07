@@ -45,7 +45,9 @@
             <div id="bodycontainer">
                 <h2>SOLUTIONS FOR THE ENVIRONMENT, <br/>ECONOMY, AND DEMOCRACY<br/><br/></h2>
                 
-                <p>SEED is a smart library of resources focused on solutions for the Environment, Economy, and Democracy, with the goal of increasing cross discipline thinking and collaboration, bolstering solidarity, and breaking down the traditional silos between these interconnected fields. In order to achieve sustainability and global equity, we need a greater understanding of the intricate networked relationships of systemic problems. The SEED library provides cutting edge ideas and proposals, and illustrates their interconnectivity visually in interactive network maps, making complex newtorks intuitive and digestable. <br/><br/></p>
+                <p>The SEED Resource Center will be a smart library of resources focused on solutions for the Environment, Economy, and Democracy, with the goal of increasing cross discipline thinking and collaboration, bolstering solidarity, and breaking down the traditional silos between these interconnected fields.  The current site is a prototype version of the Center, and will evolve and expand in the next months. <br/><br/>
+                    
+                In order to achieve sustainability and global equity, we need a greater understanding of the intricate networked relationships of systemic problems. SEED will provide cutting edge ideas and proposals, and illustrates their interconnectivity visually in interactive network maps, making complex newtorks intuitive and digestible. <br/><br/></p>
             </div>
             
             <div class="rule yellow-rule"></div>
@@ -55,7 +57,7 @@
             <div id="problem-textcontainer">
                 <h2><span class="economy-text">PROBLEM</span><br/><br/></h2>
                 <div id="bodycontainer">
-                    <p><span class="whitetext">The economic thinking taught in top universities still produces experts who discount environmental costs and offer failed formulas for prosperity based on unrealistic growth, weather from the remnants of the Keansian left or the still reigning neoliberal right. Meanwhile, democratic reform movements face resistance from established parties and interests, and fail to mobilize broader engagement among publics caught up in more immediate issues and economic crises. The activists calling for changes in these areas of environment, economy, or democracy too often operate in separate spheres, promoting reforms that fall short of systemic change.</span></p>
+                    <p><span class="whitetext">The economic thinking taught in top universities still produces experts who discount environmental costs and offer failed formulas for prosperity based on unrealistic growth, whether from the remnants of the Keansian left or the still reigning neoliberal right. Meanwhile, democratic reform movements face resistance from established parties and interests, and fail to mobilize broader engagement among publics caught up in more immediate issues and economic crises. The activists calling for changes in these areas of environment, economy, or democracy too often operate in separate spheres, promoting reforms that fall short of systemic change.</span></p>
                 </div>
             </div>
         </div>
@@ -63,7 +65,9 @@
         <div id="main-textcontainer">
             <h2><span class="economy-text">OPPORTUNITY</span><br/><br/></h2>
             <div id="bodycontainer">
-                <p>Its time to move past the fragmented politics of resistance and develop a politics of positive, aligned action. To address these integrated, systemic issues and overcome barriers to making change we need to build cross-boundary communities of knowledge prepared to interface more effectively with democratic institutions. <br/><br/>The SEED library will help integrate and spread ideas created by actors working for economic, environmental, and democratic systems that are fair, representative and sustainable. The goal is to develop a new generation of thinkers that challenges the dominance of of obsolete, neoliberal, grow-at-all-costs economics and politics. SEED empowers the people with the knowledge necessary to successfully reshape political institutions and policies with democratic approaches that work for the people and the planet.<br/><br/></p>
+                <p>Its time to move past the fragmented politics of resistance and develop a politics of positive, aligned action. To address these integrated, systemic issues and overcome barriers to making change we need to build cross-boundary communities of knowledge prepared to interface more effectively with democratic institutions. <br/><br/>
+                    
+                The SEED library will help integrate and spread ideas created by actors working for economic, environmental, and democratic systems that are fair, representative and sustainable. The goal is to develop a new generation of thinkers that challenge the dominance of obsolete, neoliberal, grow-at-all-costs economics and politics. SEED empowers the people with the knowledge necessary to successfully reshape political institutions and policies with democratic approaches that work for the people and the planet.<br/><br/></p>
             </div>
             
             <div class="rule purple-rule"></div>
