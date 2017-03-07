@@ -335,7 +335,7 @@ function display_categories($post, $padding) {
 function get_article_link($title) {
     $special_characters = array("?", ":");
     $new_title = str_replace($special_characters, "", $title, $count);
-    echo $new_title . '.pdf';
+    return '/articles/' . $new_title . '.pdf';
 }
 
 /*
