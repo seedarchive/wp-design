@@ -30,7 +30,20 @@
                 <div class="title-underline economy-background fixed-underline"></div>
             </div>
             
-            <?php setup_postdata( $post ); ?>
+            <?php 
+                setup_postdata( $post ); 
+            
+                $title = the_title_attribute('echo=0');
+                $type = get_post_meta(get_the_ID(), 'type', true);
+                debug_to_console('type' . $type);
+                $backup_link = get_post_meta(get_the_ID(), 'link', true);
+                // if post type is PDF use local copy as main link
+                if (strcmp($tpye, 'pdf') == 0) {
+                    $main_link = get_article_link($title);
+                } else {
+                    $main_link = $backup_link;
+                }  
+            ?>
             
             <div id="bodycontainer">
                 <h2><span class="uppercase"><?php echo get_post_meta(get_the_ID(), 'article-author', true); ?><br/><br/><br/></span></h2>
@@ -40,7 +53,7 @@
                 <p><?php the_content(); ?></p>
                 
                 <div class="squarebutton pdf">
-                    <h4 id="boxtext"><span class="economy-text"><a class="link" href="/articles/<?php $title = the_title_attribute('echo=0'); get_article_link($title); ?>">PDF</a></span></h4>
+                    <h4 id="boxtext"><span class="economy-text"><a class="link" href="<?php echo $main_link; ?>">Full Article</a></span></h4>
                 </div>
             </div>
             
@@ -59,7 +72,7 @@
                     <tr style="height: 10px"></tr>
                     <tr>
                         <td style="width:20%"><h4>LINK</h4></td>
-                        <td style="width:50%; padding-right:5%"><h4><span class="light economy-text"><a href="<?php echo get_post_meta(get_the_ID(), 'link', true); ?>"><?php echo get_post_meta(get_the_ID(), 'link', true); ?></a></span></h4></td>
+                        <td style="width:50%; padding-right:5%"><h4><span class="light economy-text"><a href="<?php echo $backup_link; ?>"><?php echo $backup_link; ?></a></span></h4></td>
                         <td><div class="sharebox" style="float:right">
                             <a href="http://www.facebook.com/sharer/sharer.php?u=<?php echo get_permalink(get_the_ID()); ?>">
                             <img class="medialogo centerlogo" src="/images/fb-logo@2x.png" alt="share this article on facebook"></a>
