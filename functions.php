@@ -7,13 +7,13 @@ $allshadows = ['home', 'search', 'article', 'contact', 'partners', 'tags', 'all-
 $allcategories = ['democracy', 'environment', 'economy'];
 
 // Add all democracy related tags to this array -- keep alphabetized
-$democracy_tags = ['Anglo-European','biophysical constraints','civic relations','consumption','decoupling','degrowth','democracy','ecological macroeconomics','economic growth','freshwater use','GDP','global community','Global North','land-system change','N cycle','P cycle','policy','policy instruments','population','prosperity','resources','SCP','social capital','social justice','solidarity system','sustainability','systemic change','transition','wellbeing','well-being','workshop'];
+$democracy_tags = ['activism','cities','crisis','equality','equity','governance','Great Transition','human rights','inequality','institutions','justice','policy','population','prosperity','reform','research','social capital','social justice','social movement','social movements','systemic change','transition','well-being'];
 
 // Add all economy related tags to this array -- keep alphabetized
-$economy_tags = ['activism','aerosol loading','authentic socialism','civic economy','climate change','collective ownership','commons','consumerism','cooperative commonwealth','crisis','degrowth society','dissonance','ecological limits','equality','Global South','Great Transition','growth','growth policy','inequality','institutions','ozone depletion','post-consumerism','production','provision','reform','research','social metabolism','social movement','social movements','societal metabolism','urban'];
+$economy_tags = ['capital','civic economy','collective ownership','commons','consumerism','consumption','decoupling','degrowth','ecological economics','economic growth','GDP','green economy','growth','overconsumption','post-consumerism','production','sustainable consumption'];
 
 // Add all environment related tags to this array -- keep alphabetized
-$environment_tags = ['activist-led science','behavior','biodiversity loss','capital','chemical pollution','cities','climate justice','commons-based innovations','community','democratic eco-socialism','ecological crisis','ecological economics','economy','energy','environment','equity','Eugene','governance','green economy','human impact','human rights','Japan','justice','lifestyle','limits to growth','ocean acidification','overconsumption','planetary boundaries','reciprocity','sustainable consumption','whole-systems thinking'];
+$environment_tags = ['biodiversity loss','climate change','climate justice','ecological crisis','ecological limits','energy','planetary boundaries','resources','sustainability'];
 
 function debug_to_console($data) {
     if (is_array($data))
