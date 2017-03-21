@@ -1,4 +1,4 @@
-<?php /* Template Name: ct-workshop-template */ ?>
+<?php /* Template Name: 2017workshop-template */ ?>
 <?php define( 'WP_USE_THEMES', false ); ?>
 
 <!DOCTYPE html>
@@ -92,8 +92,8 @@ participants before the workshop.)</p>
 
 <table>
 <tr><td><b>Important Dates</b></td></tr>
-<tr> <td>Applications due:</td> <td>15 April 2017</td> </tr>
-<tr> <td>Decisions:</td> <td>25 April 2017 (or earlier)</td> </tr>
+<tr> <td>Applications due:</td> <td>30 April 2017</td> </tr>
+<tr> <td>Decisions:</td> <td>10 May 2017 (or earlier)</td> </tr>
 <tr> <td>Optional workshop papers due:&nbsp;&nbsp;</td> <td>30 May 2017</td> </tr>
 <tr> <td>Workshop:</td> <td>27 June 2017</td> </tr>
 </table>
