@@ -75,7 +75,7 @@ Troyes, France (<a href="http://comtech.community/venue/">map</a>),
 <a href="http://comtech.community/">Communities &amp; Technologies
 Conference</a>. If you are interested in attending, please send a short
 description of your interests and relevant background by email to
-seedproj@uw.edu, by April 15.  Optionally, you can also include a position
+seedproj@uw.edu by April 30.  Optionally, you can also include a position
 paper with your application. We will then select a maximum of around 15
 participants, with the goals of including both academics and practitioners,
 and a diverse range of disciplines and skills, in this broad area of
@@ -106,7 +106,38 @@ participants before the workshop.)</p>
 
         <div class="rule black-rule"></div>
         </div>
-       <?php get_footer(); ?>
+
+<!-- footer inlined for this page, since contact info is different -->
+<div id="footercontainer">
+<ul id="footerlistcontainer">
+    <li id="contactcontainer">
+        <div class="footershadow environment"></div>
+        <div id="footerlinkcontainer">
+            <h2><span class="whitetext">CONTACT</span><br/><br/></h2>
+            <p><span class=whitetext>SEEDPROJ@UW.EDU</span></p>
+        </div>
+    </li>
+    <li id="partnercontainer">
+        <div class="footershadow economy"></div>
+        <div id="footerlinkcontainer">
+            <h2><span class="whitetext"><a href="/partners">PARTNER ORGANIZATIONS</a></span><br/><br/></h2>
+        </div>
+    </li>
+    <li id="aboutcontainer">
+        <div class="footershadow democracy"></div>
+        <div id="footerlinkcontainer">
+            <h2><span class="whitetext">SHARE</span><br/><br/></h2>
+                <a href="http://www.facebook.com/sharer.php?u=<?php home_url( ); ?>">
+                <img class="medialogo" src="/images/fb-logo-white@2x.png" alt="share this site on facebook"></a>
+                <a href="http://twitter.com/share?text=A%20workshop%20on%20solutions%20for%20the%20environment,%20economy,%20and%20democracy&url=<?php home_url( ); ?>">
+                <img class="medialogo" src="/images/twitter-logo-white@2x.png" alt="share this site on twitter"></a>
+        </div>
+    </li>
+</ul>
+</div>
+
+<?php wp_footer(); ?>
+
     </div> 
 </div>
 

@@ -4,7 +4,6 @@
         <div class="footershadow environment"></div>
         <div id="footerlinkcontainer">
             <h2><span class="whitetext"><a href="/contact">CONTACT</a></span><br/><br/></h2>
-            <p><span class=whitetext>SEEDPROJ@UW.EDU</span></p>
         </div>
     </li>
     <li id="partnercontainer">
