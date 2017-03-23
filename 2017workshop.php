@@ -129,7 +129,8 @@ participants before the workshop.)</p>
             <h2><span class="whitetext">SHARE</span><br/><br/></h2>
                 <a href="http://www.facebook.com/sharer.php?u=<?php home_url( ); ?>">
                 <img class="medialogo" src="/images/fb-logo-white@2x.png" alt="share this site on facebook"></a>
-                <a href="http://twitter.com/share?text=A%20workshop%20on%20solutions%20for%20the%20environment,%20economy,%20and%20democracy&url=<?php home_url( ); ?>">
+                <a
+                href="http://twitter.com/share?text=A%20workshop%20on%20solutions%20for%20the%20environment,%20economy,%20and%20democracy&url=<?php bloginfo( 'wpurl' ); ?>/2017workshop">
                 <img class="medialogo" src="/images/twitter-logo-white@2x.png" alt="share this site on twitter"></a>
         </div>
     </li>
