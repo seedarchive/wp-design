@@ -7,13 +7,13 @@ $allshadows = ['home', 'search', 'article', 'contact', 'partners', 'tags', 'all-
 $allcategories = ['democracy', 'environment', 'economy'];
 
 // Add all democracy related tags to this array -- keep alphabetized
-$democracy_tags = ['activism','cities','crisis','equality','equity','governance','Great Transition','human rights','inequality','institutions','justice','policy','population','prosperity','reform','research','social capital','social justice','social movement','social movements','systemic change','transition','well-being'];
+$democracy_tags = ['activism','equality','governance','justice','policy','reform','social movement'];
 
 // Add all economy related tags to this array -- keep alphabetized
-$economy_tags = ['capital','civic economy','collective ownership','commons','consumerism','consumption','decoupling','degrowth','ecological economics','economic growth','GDP','green economy','growth','overconsumption','post-consumerism','production','sustainable consumption'];
+$economy_tags = ['capitalism','commons','consumerism','decoupling','degrowth','economic growth/GDP','prosperity','sustainable economics'];
 
 // Add all environment related tags to this array -- keep alphabetized
-$environment_tags = ['biodiversity loss','climate change','climate justice','ecological crisis','ecological limits','energy','planetary boundaries','resources','sustainability'];
+$environment_tags = ['biodiversity loss','climate change','climate justice','planetary boundaries','resources','sustainability'];
 
 function debug_to_console($data) {
     if (is_array($data))
