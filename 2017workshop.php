@@ -66,8 +66,7 @@ three-fold: first, to help shape the plans for the SEED community; second,
 to present and discuss innovative proposals and work in this broad area;
 and third, for a key set of our participants from Europe, North America,
 and elsewhere to meet in person to help establish and further the
-connections among us.  More details are provided in our <a
-href="/articles/seed-workshop-2017-v2.pdf">workshop proposal</a>.</p>
+connections among us.
 
 <p>The workshop will take place at the Universit&eacute; de Technologie de
 Troyes, France (<a href="http://comtech.community/venue/">map</a>),
@@ -97,6 +96,12 @@ participants before the workshop.)</p>
 <tr> <td>Optional workshop papers due:&nbsp;&nbsp;</td> <td>30 May 2017</td> </tr>
 <tr> <td>Workshop:</td> <td>27 June 2017</td> </tr>
 </table>
+
+</br>
+<b>For Additional Information</b> </br>
+Additional information on the workshop themes is provided in our <a
+href="/articles/seed-workshop-2017-v3.pdf">workshop description</a>, to be
+published on the Communities &amp; Technologies Conference Proceedings.</p>
 
 <br/>
 <br/>
