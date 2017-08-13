@@ -28,21 +28,35 @@
        
        <div id="main-textcontainer">
             <div id="titlecontainer">
-                <h1>CONTACT</h1>
+                <h1>CONTACT AND EMAIL LISTS</h1>
                 <div class="title-underline yellow"></div>
             </div>
             
             <div id="bodycontainer">
-                <h3 class="nopadding">Center for Communication and Civic Engagement<br/><br/></h3>
-                
-                <p>Department of Communication, Room 125<br/>
+<p>Email: seedproj@uw.edu</p>
+                <p>Center for Communication and Civic Engagement<br/>
+                Department of Communication, Room 125<br/>
                 Box 353740<br/>
                 University of Washington<br/>
                 Seattle, WA 98195 USA<br/>
                 206-685-1504<br/>
-                <a href="mailto:ccce.u.washington.edu">ccce.u.washington.edu</a>
+                <a href="http://ccce.com.washington.edu">ccce.com.washington.edu</a>
                 <br/><br/></p>
                 
+                <h3 class="nopadding">Project Mailing Lists<br/><br/></h3>
+
+<p>We invite you to sign up for one or both of our project mailing lists:</p>
+
+<ul>
+
+<li><a href="https://mailman1.u.washington.edu/mailman/listinfo/seed-announce">seed-announce</a>: a low-volume list of project
+announcements (e.g., upcoming workshops, other significant news)</li>
+
+<li><a
+href="https://mailman1.u.washington.edu/mailman/listinfo/seed-discussion">seed-discussion</a>:
+a discussion list for SEED-related topics</li>
+
+</ul>
             </div>
         </div>
        <?php get_footer(); ?>

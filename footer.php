@@ -3,7 +3,8 @@
     <li id="contactcontainer">
         <div class="footershadow environment"></div>
         <div id="footerlinkcontainer">
-            <h2><span class="whitetext"><a href="/contact">CONTACT</a></span><br/><br/></h2>
+            <h2><span class="whitetext"><a href="/contact">CONTACT AND
+            EMAIL LISTS</a></span><br/><br/></h2>
         </div>
     </li>
     <li id="partnercontainer">
