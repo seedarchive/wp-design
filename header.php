@@ -6,27 +6,39 @@ $div_class = get_page_name($_SERVER['REQUEST_URI']);
     <div class="header-image <?php echo $div_class ?>"></div>
         
     <a href="<?php bloginfo( 'wpurl' ); ?>">
-        <img class="seed-logo" src="/images/seed-logo2.png" alt="link to home page">
+        <img class="seed-logo"
+             src="<?php echo get_stylesheet_directory_uri(); ?>/images/seed-logo2.png" 
+             alt="link to home page">
     </a>
     
     <div id="navcontainer"> 
         <a href="/tags">
-            <img class="tags-icon" src="/images/tags-icon.png" alt="link to all tags page">
+            <img class="tags-icon"
+                 src="<?php echo get_stylesheet_directory_uri(); ?>/images/tags-icon.png"
+                 alt="link to all tags page">
         </a>
         
         <a href="/search">
-            <img class="search-icon" src="/images/search-icon@2x.png" alt="link to search page">
+            <img class="search-icon"
+                 src="<?php echo get_stylesheet_directory_uri(); ?>/images/search-icon-2x.png" 
+                 alt="link to search page">
         </a>
         
         <ul id="navbarcontainer">
             <a href="/environment">
-                <li><img class="navimg" src="/images/environment@2x.png" alt="link to environemnt page"></li>
+                <li><img class="navimg" 
+                         src="<?php echo get_stylesheet_directory_uri(); ?>/images/environment-2x.png"
+                         alt="link to environemnt page"></li>
             </a>
             <a href="/economy">
-                <li><img class="navimg" src="/images/economy@2x.png" alt="link to economy page"></li>
+                <li><img class="navimg"
+                         src="<?php echo get_stylesheet_directory_uri(); ?>/images/economy-2x.png"
+                         alt="link to economy page"></li>
             </a>
             <a href="/democracy">
-                <li><img class="navimg" src="/images/democracy@2x.png" alt="link to democracy page"></li>
+                <li><img class="navimg"
+                         src="<?php echo get_stylesheet_directory_uri(); ?>/images/democracy-2x.png"
+                         alt="link to democracy page"></li>
             </a>
         </ul>
         

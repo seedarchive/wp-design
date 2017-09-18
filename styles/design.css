@@ -171,25 +171,25 @@ body {
 .header-image.article,
 .header-image.partners,
 .header-image.home {
-    background-image: url('/images/home-header.png');
+    background-image: url('../images/home-header.png');
 }
 
 .header-image.all-articles,
 .header-image.economy {
-    background-image: url('/images/economy-header.png');
+    background-image: url('../images/economy-header.png');
 }
 
 .header-image.democracy {
-    background-image: url('/images/democracy-header.png');
+    background-image: url('../images/democracy-header.png');
 }
 
 .header-image.tags,
 .header-image.search {
-    background-image: url('/images/search-header.png');
+    background-image: url('../images/search-header.png');
 }
 
 .header-image.contact {
-    background-image: url('/images/contact-header.png');
+    background-image: url('../images/contact-header.png');
 }
 
 .seed-logo {
@@ -404,15 +404,15 @@ body {
 }
 
 .rule.yellow-rule {
-    background-image: url('/images/rule-yellow@2x.png');
+    background-image: url('../images/rule-yellow-2x.png');
 }
 
 .rule.purple-rule {
-    background-image: url('/images/rule-purple@2x.png');
+    background-image: url('../images/rule-purple-2x.png');
 }
 
 .rule.black-rule {
-    background-image: url('/images/rule-black@2x.png');
+    background-image: url('../images/rule-black-2x.png');
     margin-bottom: 16.5px;
 }
 
@@ -420,7 +420,7 @@ body {
     width: 100%;
     height: 238.2px;
     position: relative;
-    background-image: url('/images/problem-background.png');
+    background-image: url('../images/problem-background.png');
     background-size: cover;
 }
 
@@ -619,7 +619,7 @@ input[type=checkbox] + label {
     padding: 5px 12px 0px 32px;
     line-height: 10px;
     text-transform: uppercase;
-    background: url('/images/unchecked.png') no-repeat 12px 5px;
+    background: url('../images/unchecked.png') no-repeat 12px 5px;
     height: 20px;
     border-radius: 16.4px;
     box-shadow: 0 1.4px 2.8px 0 rgba(127, 104, 104, 0.3);
@@ -632,7 +632,7 @@ input[type=checkbox]:checked + label {
     padding: 5px 12px 0px 32px;
     line-height: 10px;
     color: white;
-    background: url('/images/checked.png') no-repeat 12px 5px;
+    background: url('../images/checked.png') no-repeat 12px 5px;
 }
 
 input[type=checkbox]:checked + .democracy {
