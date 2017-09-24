@@ -100,8 +100,8 @@ participants before the workshop.)</p>
 </br>
 <b>For Additional Information</b> </br>
 Additional information on the workshop themes is provided in our <a
-href="/articles/seed-workshop-2017-v3.pdf">workshop description</a>, to be
-published on the Communities &amp; Technologies Conference Proceedings.</p>
+href="/articles/seed-workshop-2017-v3.pdf">workshop description</a>, which was
+published in the Communities &amp; Technologies Conference Proceedings.</p>
 
 <br/>
 <br/>
@@ -112,42 +112,7 @@ published on the Communities &amp; Technologies Conference Proceedings.</p>
         <div class="rule black-rule"></div>
         </div>
 
-<!-- footer inlined for this page, since contact info is different -->
-<div id="footercontainer">
-<ul id="footerlistcontainer">
-    <li id="contactcontainer">
-        <div class="footershadow environment"></div>
-        <div id="footerlinkcontainer">
-            <h2><span class="whitetext">CONTACT</span><br/><br/></h2>
-            <p><span class=whitetext>SEEDPROJ@UW.EDU</span></p>
-        </div>
-    </li>
-    <li id="partnercontainer">
-        <div class="footershadow economy"></div>
-        <div id="footerlinkcontainer">
-            <h2><span class="whitetext"><a href="/partners">PARTNER ORGANIZATIONS</a></span><br/><br/></h2>
-        </div>
-    </li>
-    <li id="aboutcontainer">
-        <div class="footershadow democracy"></div>
-        <div id="footerlinkcontainer">
-            <h2><span class="whitetext">SHARE</span><br/><br/></h2>
-                <a href="http://www.facebook.com/sharer.php?u=<?php home_url( ); ?>">
-                  <img class="medialogo centerlogo"
-                       src="<?php echo get_stylesheet_directory_uri(); ?>/images/fb-logo-white-2x.png" 
-                       alt="share this site on facebook"></a>
-                <a
-                href="http://twitter.com/share?text=A%20workshop%20on%20solutions%20for%20the%20environment,%20economy,%20and%20democracy&url=<?php bloginfo( 'wpurl' ); ?>/2017workshop">
-                  <img class="medialogo centerlogo"
-                       src="<?php echo get_stylesheet_directory_uri(); ?>/images/twitter-logo-white-2x.png"
-                       alt="share this site on twitter"></a>
-        </div>
-    </li>
-</ul>
-</div>
-
-<?php wp_footer(); ?>
-
+       <?php get_footer(); ?>
     </div> 
 </div>
 
