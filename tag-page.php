@@ -13,12 +13,6 @@
     <meta name="author" content="">
 
     <title>Tags</title>
-      
-    <!-- Bootstrap core CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">  
-    
-    <!-- Custom styles for this template -->
-    <link href="/wp-content/themes/seed-design/styles/design.css" rel="stylesheet">
 </head>
     
 <div id="outer">
