@@ -24,7 +24,7 @@
                 <?php get_search_form(); ?>
                 <?php $search = generate_search_query(); ?>
                 <div style="margin-bottom: 15px"></div>
-                <h4><a href="/tags">View all tags</a><br/><br/></h4>
+                <h4><a href="<?php echo home_url( 'tags'); ?>">View all tags</a><br/><br/></h4>
             </div>
             
             <div class="rule black-rule"></div>

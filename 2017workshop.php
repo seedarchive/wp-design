@@ -75,7 +75,8 @@ and a diverse range of disciplines and skills, in this broad area of
 seeking integrated solutions to problems of economy, environment, and
 democracy.</p>
 
-<p>A central aspect of the SEED project is a <a href="/">resource center</a> of
+<p>A central aspect of the SEED project is a
+<a href="<?php echo home_url(); ?>">resource center</a> of
 position papers and other materials.  We thus also invite attendees to add
 appropriate position papers or other materials to this resource center.  To
 facilitate exchanges at the workshop, we will send out a list of these

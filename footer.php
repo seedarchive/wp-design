@@ -3,13 +3,16 @@
     <li id="contactcontainer">
         <div class="footershadow environment"></div>
         <div id="footerlinkcontainer">
-            <h2><span class="whitetext"><a href="/contact">CONTACT</a></span><br/><br/></h2>
+            <h2><span class="whitetext">
+                <a href="<?php echo home_url( 'contact'); ?>">CONTACT</a></span><br/><br/></h2>
         </div>
     </li>
     <li id="partnercontainer">
         <div class="footershadow economy"></div>
         <div id="footerlinkcontainer">
-            <h2><span class="whitetext"><a href="/partners">PARTNER ORGANIZATIONS</a></span><br/><br/></h2>
+            <h2><span class="whitetext">
+                <a href="<?php echo home_url( 'partners'); ?>">PARTNER ORGANIZATIONS</a>
+                </span><br/><br/></h2>
         </div>
     </li>
     <li id="aboutcontainer">
