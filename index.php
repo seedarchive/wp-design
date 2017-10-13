@@ -14,7 +14,23 @@
     
 <div id="outer">
     <div id="container">
-        <?php get_header(); ?>
+
+<!-- hack: inline the header here, to eliminate the search tags -->
+<div id="headercontainer">
+    <div class="header-image home"></div>
+        
+    <a href="<?php bloginfo( 'wpurl' ); ?>">
+        <img class="seed-logo"
+             src="<?php echo get_stylesheet_directory_uri(); ?>/images/seed-logo2.png" 
+             alt="link to home page">
+    </a>
+    
+
+</div>
+
+<?php wp_head(); ?> 
+
+
         
         <div id="sharecontainer">
             <div class="sharebox" style="margin-bottom: -0.5px">
@@ -43,39 +59,41 @@
             <div id="bodycontainer">
                 <h2>SOLUTIONS FOR THE ENVIRONMENT, <br/>ECONOMY, AND DEMOCRACY<br/><br/></h2>
                 
-                <p>The SEED Resource Center will be a smart library of resources focused on solutions for the Environment, Economy, and Democracy, with the goal of increasing cross discipline thinking and collaboration, bolstering solidarity, and breaking down the traditional silos between these interconnected fields.  The current site is a prototype version of the Center, and will evolve and expand in the next months. <br/><br/>
-                    
-                In order to achieve sustainability and global equity, we need a greater understanding of the intricate networked relationships of systemic problems. SEED will provide cutting edge ideas and proposals, and illustrates their interconnectivity visually in interactive network maps, making complex networks intuitive and digestible. <br/><br/></p>
-            </div>
-            
-            <div class="rule yellow-rule"></div>
-        </div>
-        
-        <div id="problemcontainer">
-            <div id="problem-textcontainer">
-                <h2><span class="economy-text">PROBLEM</span><br/><br/></h2>
-                <div id="bodycontainer">
-                    <p><span class="whitetext">The economic thinking taught in top universities still produces experts who discount environmental costs and offer failed formulas for prosperity based on unrealistic growth, whether from the remnants of the Keynesian left or the still reigning neoliberal right. Meanwhile, democratic reform movements face resistance from established parties and interests, and fail to mobilize broader engagement among publics caught up in more immediate issues and economic crises. The activists calling for changes in these areas of environment, economy, or democracy too often operate in separate spheres, promoting reforms that fall short of systemic change.</span></p>
-                </div>
-            </div>
-        </div>
-        
-        <div id="main-textcontainer">
-            <h2><span class="economy-text">OPPORTUNITY</span><br/><br/></h2>
-            <div id="bodycontainer">
-                <p>Its time to move past the fragmented politics of resistance and develop a politics of positive, aligned action. To address these integrated, systemic issues and overcome barriers to making change we need to build cross-boundary communities of knowledge prepared to interface more effectively with democratic institutions. <br/><br/>
-                    
-                The SEED library will help integrate and spread ideas created by actors working for economic, environmental, and democratic systems that are fair, representative and sustainable. The goal is to develop a new generation of thinkers that challenge the dominance of obsolete, neoliberal, grow-at-all-costs economics and politics. SEED empowers the people with the knowledge necessary to successfully reshape political institutions and policies with democratic approaches that work for the people and the planet.<br/><br/></p>
-            </div>
-            
-            <div class="rule purple-rule"></div>
-        </div>
-        
-        <div class="squarebutton viewarticles">
-            <h4 id="boxtext"><span class="economy-text">
-                <a class="link" href="<?php echo home_url( 'all-articles'); ?>">ALL ARTICLES</a></span></h4>
-        </div>
+<p>Quality of life for growing numbers of people on the planet is
+threatened by a set of integrated, systemic problems in the economy,
+environment and democracy. The goal of the SEED project is to form an
+international network of scholar/activists, advocates, and practitioners
+who seek to address these problems in a similarly integrated fashion. We
+are approaching this in two ways: first, by developing an online platform
+that connects our participants and facilitates sharing and assessing ideas
+and action experiments operating in local, national and international
+arenas; and second, by organizing a set of in-person workshops and other
+meetings of participants.</p>
 
+<p>Please see the following for additional information:</p>
+
+<ul>
+
+<li>The <a href="manifesto/">SEED Manifesto</a> -- summarizes our analysis of
+the current situation and approach.</li>
+
+<li><a href="resource-center/">Resource Center</a> -- a prototype
+version of a library of resources relevant to SEED.  We plan to expand and
+evolve it in the coming months.</li>
+
+<li><a href="2017workshop/">SEED Workshop at the 8th International
+  Conference on Communities &amp; Technologies</a> (workshop held in June 2017)</li>
+
+<li><a href="https://ischool.uni-siegen.de/sozioinformatik/solutions-for-environment-economics-and-democracy-seed/">SEED
+Workshop at the University of Siegen, Germany</a>
+ (workshop to be held in October 2017)</li>
+
+</ul>
+
+</div>
+
+        </div>
+        
         <?php get_footer(); ?>
     </div> 
 </div>

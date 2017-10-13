@@ -18,7 +18,42 @@
 <div id="outer">
    <div id="container">
        
-       <?php get_header(); ?>
+
+<!-- hack: inline the header here, to eliminate the search tags -->
+<div id="headercontainer">
+    <div class="header-image home"></div>
+        
+    <a href="<?php bloginfo( 'wpurl' ); ?>">
+        <img class="seed-logo"
+             src="<?php echo get_stylesheet_directory_uri(); ?>/images/seed-logo2.png" 
+             alt="link to home page">
+    </a>
+    
+
+</div>
+
+<?php wp_head(); ?> 
+
+
+        
+        <div id="sharecontainer">
+            <div class="sharebox" style="margin-bottom: -0.5px">
+                <a href="http://www.facebook.com/sharer.php?u=<?php bloginfo( 'wpurl' ); ?>">
+                  <img class="medialogo centerlogo"
+                       src="<?php echo get_stylesheet_directory_uri(); ?>/images/fb-logo-2x.png" 
+                       alt="share this site on facebook"></a>
+            </div>
+            <div class="sharebox" style="margin-bottom: -0.5px">
+                <a href="http://twitter.com/share?text=A%20resource%20center%20focused%20on%20solutions%20for%20the%20environment,%20economy,%20and%20democracy&url=<?php bloginfo( 'wpurl' ); ?>">
+                  <img class="medialogo centerlogo"
+                       src="<?php echo get_stylesheet_directory_uri(); ?>/images/twitter-logo-2x.png"
+                       alt="share this site on twitter"></a>
+            </div>
+            <div id="sharetext">
+                <h2 class="vertical"><span class="economy-text">SHARE</span></h2>
+            </div>
+        </div>
+
        
        <div id="main-textcontainer">
             <div id="titlecontainer">
