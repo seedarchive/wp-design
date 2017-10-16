@@ -57,7 +57,7 @@
        
        <div id="main-textcontainer">
             <div id="titlecontainer">
-                <h1>Solutions for Economics, Environment and Democracy (SEED)</h1>
+                <h1>Solutions for Environment, Economy, and Democracy (SEED)</h1>
                 <div class="title-underline blue"></div>
             </div>
             
@@ -67,7 +67,7 @@
 W. Lance Bennett, Alan Borning &amp; Deric Gruen <br/>
 Center for Communication &amp; Civic Engagement <br/>
 University of Washington, Seattle <br/>
-Draft of August 2017<br/>
+Draft of October 2017<br/>
 <br/>
 </h2>
 
@@ -118,7 +118,8 @@ ideas and empty promises [2]. </p>
 <p>A shift to a people and environmentally friendly economic regime will
 involve politics, which means returning democracies to the people, and
 holding policy-makers accountable to popular movements aligned around an
-agenda of economics, environment, and democratic solutions (SEED). We
+agenda of solutions to pressing problems of the environment,
+economy, and democracy (SEED). We
 propose to build such a global thought network by engaging currently
 scattered local and national movements around the prospects of building
 common narratives and action plans. The logic for developing the SEED
@@ -209,7 +210,7 @@ the poverty line, opportunities for people to develop their potential, and
 restoration of thriving natural environments. What is the path toward these
 outcomes?</p>
 
-<h3>Solutions for Economy, Environment, and Democracy (SEED)</h3><br/>
+<h3>Solutions for Environment, Economy, and Democracy (SEED)</h3><br/>
 
 <p>Many citizens grasp the complexity of the problems facing civilization, and
 understand the many arenas -- local, national, transnational, north and
@@ -260,7 +261,7 @@ democratic institutions.</p>
 
 <p>There are opportunities in this historic moment if broad thinking meets
 smart political organization. The question is whether compelling ideas can
-bridge the critical areas of economy, environment and democracy and offer
+bridge the critical areas of environment, economy, and democracy and offer
 inclusive participatory opportunities for people who are currently divided
 by tired ideology, geography, and dysfunctional politics. </p>
 
@@ -279,9 +280,10 @@ off-the-shelf, open-source software. Our plan is to replace this with a
 smart technology platform to support and grow a broad intellectual network
 for sharing ideas and resources in the core areas of SEED. The platform
 will enable semi-automated tagging and curating of content, along with
-prompts for people to engage with the contributions of others in ways that
-bridge topics and highlight differences. Bridged information and popular
-resolutions of differences will rise to become the most featured and shared
+prompts for people to engage with the contributions of others
+and highlight differences. Contributions that bridge multiple existing
+topics, as well as popular
+resolutions of differences, will rise to become the most featured and shared
 content. At the same time, we will begin introducing proposals from the
 network into broader intellectual and policy circles.</p>
 
@@ -306,7 +308,7 @@ and popular culture, as well as translation of effective ideas and models
 for action into diverse social, cultural and political settings.</p>
 
 <p>Please visit the project website at 
-<a href="https://seed.uw.edu">seed.uw.edu</a> for further information or to
+<a href="https://seed.uw.edu">https://seed.uw.edu</a> for further information or to
 add yourself to the project mailing list; subsequently, this same URL will
 be the entry point for the smart platform as it is developed and
 deployed.</p>

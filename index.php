@@ -57,11 +57,11 @@
             </div>
             
             <div id="bodycontainer">
-                <h2>SOLUTIONS FOR THE ENVIRONMENT, <br/>ECONOMY, AND DEMOCRACY<br/><br/></h2>
+                <h2>SOLUTIONS FOR ENVIRONMENT, <br/>ECONOMY, AND DEMOCRACY<br/><br/></h2>
                 
 <p>Quality of life for growing numbers of people on the planet is
-threatened by a set of integrated, systemic problems in the economy,
-environment and democracy. The goal of the SEED project is to form an
+threatened by a set of integrated, systemic problems in the environment and
+our economic and political systems. The goal of the SEED project is to form an
 international network of scholar/activists, advocates, and practitioners
 who seek to address these problems in a similarly integrated fashion. We
 are approaching this in two ways: first, by developing an online platform
