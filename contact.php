@@ -53,10 +53,9 @@
             </div>
         </div>
 
-       
        <div id="main-textcontainer">
             <div id="titlecontainer">
-                <h1>CONTACT</h1>
+                <h1>CONTACT AND EMAIL LIST</h1>
                 <div class="title-underline yellow"></div>
             </div>
             
@@ -71,7 +70,17 @@
                 <a href="http://ccce.com.washington.edu">ccce.com.washington.edu</a>
                 <br/><br/></p>
                 
+                <h3 class="nopadding">Project Mailing List<br/><br/></h3>
 
+<p>We invite you to sign up for our project mailing list:</p>
+
+<ul>
+
+<li><a
+href="https://mailman1.u.washington.edu/mailman/listinfo/seed-discussion">seed-discussion</a>:
+a discussion list for SEED-related topics</li>
+
+</ul>
             </div>
         </div>
        <?php get_footer(); ?>
