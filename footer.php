@@ -4,7 +4,8 @@
         <div class="footershadow environment"></div>
         <div id="footerlinkcontainer">
             <h2><span class="whitetext">
-                <a href="<?php echo home_url( 'contact'); ?>">CONTACT</a></span><br/><br/></h2>
+                <a href="<?php echo home_url( 'contact'); ?>">CONTACT AND
+                EMAIL LIST</a></span><br/><br/></h2>
         </div>
     </li>
     <li id="partnercontainer">
