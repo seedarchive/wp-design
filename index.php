@@ -75,18 +75,18 @@ meetings of participants.</p>
 <ul>
 
 <li>The <a href="manifesto/">SEED Manifesto</a> -- summarizes our analysis of
-the current situation and approach.</li>
+the current situation and approach</li>
 
 <li><a href="resource-center/">Resource Center</a> -- a prototype
-version of a library of resources relevant to SEED.  We plan to expand and
-evolve it in the coming months.</li>
+version of a library of resources relevant to SEED</li>
 
 <li><a href="2017workshop/">SEED Workshop at the 8th International
-  Conference on Communities &amp; Technologies</a> (workshop held in June 2017)</li>
+  Conference on Communities &amp; Technologies</a> (workshop held
+  June 2017)</li>
 
 <li><a href="https://ischool.uni-siegen.de/sozioinformatik/solutions-for-environment-economics-and-democracy-seed/">SEED
 Workshop at the University of Siegen, Germany</a>
- (workshop to be held in October 2017)</li>
+ (workshop held October 2017)</li>
 
 </ul>
 
