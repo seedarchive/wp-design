@@ -129,9 +129,9 @@ participants before the workshop.)</p>
 
 </br>
 <b>For Additional Information</b> </br>
-Additional information on the workshop themes is provided in our <a
-href="/articles/seed-workshop-2017-v3.pdf">workshop description</a>, which was
-published in the Communities &amp; Technologies Conference Proceedings.</p>
+Additional information on the workshop themes is provided in our
+<a href="<?php echo home_url( 'troyes-workshop-2017.pdf' ); ?>">workshop description</a>,
+which was published in the Communities &amp; Technologies Conference Proceedings.</p>
 
 <br/>
 <br/>
