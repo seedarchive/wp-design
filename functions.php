@@ -144,7 +144,7 @@ function get_posts_for_page($class_name) {
 }
 
 /*
-   Args: <nullable array> $categories - array of categories to be used for filtering            articles
+   Args: <nullable array> $categories - array of categories to be used for filtering articles
          <string> $page_name - name of page
          
    Queries for a list of posts for the given page using an intersection of the selected categories
@@ -328,15 +328,6 @@ function display_categories($post, $padding) {
     echo '<div style="margin-bottom:' . $padding . 'px"></div>';
 }
 
-/*
-   Args: <string> $title - pdf link for a article
-   Return: <string> new link with special characters (not allowed in filenames) removed
-*/
-function get_article_link($title) {
-    $special_characters = array("?", ":");
-    $new_title = str_replace($special_characters, "", $title, $count);
-    return '/articles/' . $new_title . '.pdf';
-}
 
 /*
    Args: <string> $class_name - name of the current page
@@ -419,5 +410,10 @@ function seed_design_scripts() {
 }
 
 add_action( 'wp_enqueue_scripts', 'seed_design_scripts' );
+
+function echo_article_url($u) {
+    $upload_dir = wp_upload_dir();  // array of key-value pairs
+    echo $upload_dir['url'].'/'.$u;
+}
 
 ?>

@@ -32,7 +32,9 @@
                 $backup_link = get_post_meta(get_the_ID(), 'link', true);
                 // if post type is PDF use local copy as main link
                 if (strcmp($type, 'pdf') == 0) {
-                    $main_link = get_article_link($title);
+                    $fname = get_post_meta(get_the_ID(), 'filename', true);
+                    $upload_dir = wp_upload_dir();
+                    $main_link = $upload_dir['url'].'/'.$fname;
                 } else {
                     $main_link = $backup_link;
                 }  

@@ -1,3 +1,6 @@
+<?php /* Template Name: workshops-template */ ?>
+<?php define( 'WP_USE_THEMES', false ); ?>
+
 <!DOCTYPE html>
 <html lang="en">
     
@@ -9,11 +12,12 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title><?php echo get_bloginfo( 'name' ); ?></title>
+    <title>SEED Workshops</title>
 </head>
     
 <div id="outer">
-    <div id="container">
+   <div id="container">
+       
 
 <!-- hack: inline the header here, to eliminate the search tags -->
 <div id="headercontainer">
@@ -50,44 +54,49 @@
             </div>
         </div>
 
-        <div id="main-textcontainer">
+       
+       <div id="main-textcontainer">
             <div id="titlecontainer">
-                <h1>SEED</h1>
-                <div class="title-underline purple"></div>
+                <h1>SEED WORKSHOPS</h1>
+                <div class="title-underline blue"></div>
             </div>
             
-            <div id="bodycontainer">
-                <h2>SOLUTIONS FOR ENVIRONMENT, <br/>ECONOMY, AND DEMOCRACY<br/><br/></h2>
-                
-<p>Quality of life for growing numbers of people on the planet is
-threatened by a set of integrated, systemic problems in the environment and
-our economic and political systems. The goal of the SEED project is to form an
-international network of scholar/activists, advocates, and practitioners
-who seek to address these problems in a similarly integrated fashion. We
-are approaching this in two ways: first, by developing an online platform
-that connects our participants and facilitates sharing and assessing ideas
-and action experiments operating in local, national and international
-arenas; and second, by organizing a series of in-person 
-<a href="workshops/">workshops</a> and other meetings of participants.
+
+<div id="workshopcontainer">
 
 
-<p>Please see the following for additional information:</p>
+<br/><br/>
+
+<p>
+</div>
+
+<div id="workshopcontainer">
+
+<p>One of our core activities is organizing a series of in-person workshops
+and other meetings of participants.  Below are links to the web pages for
+the first two of these:</p>
+
 
 <ul>
 
-<li>The <a href="manifesto/">SEED Manifesto</a> -- summarizes our analysis of
-the current situation and approach</li>
+<li><a href="troyes-2017-workshop/">SEED Workshop at the 8th International
+  Conference on Communities &amp; Technologies</a> (workshop held
+  June 2017)</li>
 
-<li><a href="resource-center/">Resource Center</a> -- a prototype
-version of a library of resources relevant to SEED</li>
+<li><a href="https://ischool.uni-siegen.de/sozioinformatik/solutions-for-environment-economics-and-democracy-seed/">SEED
+Workshop at the University of Siegen, Germany</a>
+ (workshop held October 2017)</li>
 
 </ul>
 
+
 </div>
 
+
+        <div class="rule black-rule"></div>
         </div>
-        
-        <?php get_footer(); ?>
+
+       <?php get_footer(); ?>
     </div> 
 </div>
 

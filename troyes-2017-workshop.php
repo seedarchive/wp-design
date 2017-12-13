@@ -1,4 +1,4 @@
-<?php /* Template Name: 2017workshop-template */ ?>
+<?php /* Template Name: troyes-workshop-template */ ?>
 <?php define( 'WP_USE_THEMES', false ); ?>
 
 <!DOCTYPE html>
@@ -130,7 +130,7 @@ participants before the workshop.)</p>
 </br>
 <b>For Additional Information</b> </br>
 Additional information on the workshop themes is provided in our
-<a href="<?php echo home_url( 'troyes-workshop-2017.pdf' ); ?>">workshop description</a>,
+<a href="<?php echo_article_url( 'troyes-workshop-2017.pdf' ); ?>">workshop description</a>,
 which was published in the Communities &amp; Technologies Conference Proceedings.</p>
 
 <br/>

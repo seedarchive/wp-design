@@ -73,7 +73,7 @@ Draft of October 2017<br/>
 
 <br/>
 
-<b><a href="/articles/manifesto.pdf">pdf version of the Manifesto</a></b>
+<b><a href="<?php echo_article_url( 'manifesto.pdf' ); ?>">pdf version of the Manifesto</a></b>
 
 <br/>
 
