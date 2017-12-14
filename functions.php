@@ -416,4 +416,8 @@ function echo_article_url($u) {
     echo $upload_dir['url'].'/'.$u;
 }
 
+function echo_image_url($u) {
+    echo get_stylesheet_directory_uri().'/images/'.$u;
+}
+
 ?>

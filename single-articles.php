@@ -71,13 +71,13 @@
                         <td><div class="sharebox" style="float:right">
                             <a href="http://www.facebook.com/sharer/sharer.php?u=<?php echo get_permalink(get_the_ID()); ?>">
                   <img class="medialogo centerlogo"
-                       src="<?php echo get_stylesheet_directory_uri(); ?>/images/fb-logo-2x.png" 
+                       src="<?php echo_image_url('fb-logo-2x.png'); ?>" 
                        alt="share this site on facebook"></a>
                         </div></td>
                         <td><div class="sharebox">
                             <a href="http://twitter.com/share?url=<?php echo get_permalink(get_the_ID()); ?>">
                   <img class="medialogo centerlogo"
-                       src="<?php echo get_stylesheet_directory_uri(); ?>/images/twitter-logo-2x.png"
+                       src="<?php echo_image_url('twitter-logo-2x.png'); ?>" 
                        alt="share this site on twitter"></a>
                         </div></td>
                     </tr>

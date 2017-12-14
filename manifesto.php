@@ -25,7 +25,7 @@
         
     <a href="<?php bloginfo( 'wpurl' ); ?>">
         <img class="seed-logo"
-             src="<?php echo get_stylesheet_directory_uri(); ?>/images/seed-logo2.png" 
+             src="<?php echo_image_url('seed-logo2.png'); ?>" 
              alt="link to home page">
     </a>
     

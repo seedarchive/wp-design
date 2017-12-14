@@ -7,37 +7,37 @@ $div_class = get_page_name($_SERVER['REQUEST_URI']);
         
     <a href="<?php bloginfo( 'wpurl' ); ?>">
         <img class="seed-logo"
-             src="<?php echo get_stylesheet_directory_uri(); ?>/images/seed-logo2.png" 
+             src="<?php echo_image_url('seed-logo2.png'); ?>" 
              alt="link to home page">
     </a>
     
     <div id="navcontainer"> 
         <a href="<?php echo home_url( 'tags'); ?>">
             <img class="tags-icon"
-                 src="<?php echo get_stylesheet_directory_uri(); ?>/images/tags-icon.png"
+                 src="<?php echo_image_url('tags-icon.png'); ?>" 
                  alt="link to all tags page">
         </a>
         
         <a href="<?php echo home_url( 'search'); ?>">
             <img class="search-icon"
-                 src="<?php echo get_stylesheet_directory_uri(); ?>/images/search-icon-2x.png" 
+                 src="<?php echo_image_url('search-icon-2x.png'); ?>" 
                  alt="link to search page">
         </a>
         
         <ul id="navbarcontainer">
             <a href="<?php echo home_url( 'environment'); ?>">
                 <li><img class="navimg" 
-                         src="<?php echo get_stylesheet_directory_uri(); ?>/images/environment-2x.png"
+                         src="<?php echo_image_url('environment-2x.png'); ?>" 
                          alt="link to environment page"></li>
             </a>
             <a href="<?php echo home_url( 'economy'); ?>">
                 <li><img class="navimg"
-                         src="<?php echo get_stylesheet_directory_uri(); ?>/images/economy-2x.png"
+                         src="<?php echo_image_url('economy-2x.png'); ?>" 
                          alt="link to economy page"></li>
             </a>
             <a href="<?php echo home_url( 'democracy'); ?>">
                 <li><img class="navimg"
-                         src="<?php echo get_stylesheet_directory_uri(); ?>/images/democracy-2x.png"
+                         src="<?php echo_image_url('democracy-2x.png'); ?>" 
                          alt="link to democracy page"></li>
             </a>
         </ul>
