@@ -17,23 +17,7 @@
     
 <div id="outer">
    <div id="container">
-       
-<!-- hack: inline the header here, to eliminate the search tags -->
-<div id="headercontainer">
-    <div class="header-image home"></div>
-        
-    <a href="<?php bloginfo( 'wpurl' ); ?>">
-        <img class="seed-logo"
-             src="<?php echo get_stylesheet_directory_uri(); ?>/images/seed-logo2.png" 
-             alt="link to home page">
-    </a>
-    
-
-</div>
-
-<?php wp_head(); ?> 
-
-
+        <?php get_header(); ?>
         
         <div id="sharecontainer">
             <div class="sharebox" style="margin-bottom: -0.5px">
