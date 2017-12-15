@@ -16,7 +16,7 @@
     
 <div id="outer">
     <div id="container">
-       <?php get_header(); ?>
+       <?php get_header( 'resourcecenter' ); ?>
         
         <div id="main-textcontainer">
             <div id="articletitlecontainer">

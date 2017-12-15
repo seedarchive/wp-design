@@ -18,7 +18,7 @@
 <div id="outer">
    <div id="container">
        
-       <?php get_header(); ?>
+       <?php get_header( 'resourcecenter' ); ?>
        <div id="main-textcontainer">
             <div id="titlecontainer">
                 <h1 class="uppercase"><?php echo $class_name; ?></h1>
