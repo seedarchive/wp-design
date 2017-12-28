@@ -1,3 +1,6 @@
+<?php /* Template Name: index-template */ ?>
+<?php define( 'WP_USE_THEMES', false ); ?>
+
 <!DOCTYPE html>
 <html lang="en">
     
@@ -8,72 +11,26 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-
-    <title><?php echo get_bloginfo( 'name' ); ?></title>
 </head>
     
 <div id="outer">
-    <div id="container">
+   <div id="container">
         <?php get_header(); ?>
 
-        <div id="sharecontainer">
-            <div class="sharebox" style="margin-bottom: -0.5px">
-                <a href="http://www.facebook.com/sharer.php?u=<?php bloginfo( 'wpurl' ); ?>">
-                  <img class="medialogo centerlogo"
-                       src="<?php echo_image_url('fb-logo-2x.png'); ?>"
-                       alt="share this site on facebook"></a>
-            </div>
-            <div class="sharebox" style="margin-bottom: -0.5px">
-                <a href="http://twitter.com/share?text=A%20resource%20center%20focused%20on%20solutions%20for%20the%20environment,%20economy,%20and%20democracy&url=<?php bloginfo( 'wpurl' ); ?>">
-                  <img class="medialogo centerlogo"
-                       src="<?php echo_image_url('twitter-logo-2x.png'); ?>"
-                       alt="share this site on twitter"></a>
-            </div>
-            <div id="sharetext">
-                <h2 class="vertical"><span class="economy-text">SHARE</span></h2>
-            </div>
-        </div>
+       <div id="main-textcontainer">
 
-        <div id="main-textcontainer">
-            <div id="titlecontainer">
-                <h1>SEED</h1>
-                <div class="title-underline purple"></div>
-            </div>
-            
-            <div id="bodycontainer">
-                <h2>SOLUTIONS FOR ENVIRONMENT, <br/>ECONOMY, AND DEMOCRACY<br/><br/></h2>
-                
-<p>Quality of life for growing numbers of people on the planet is
-threatened by a set of integrated, systemic problems in the environment and
-our economic and political systems. The goal of the SEED project is to form an
-international network of scholar/activists, advocates, and practitioners
-who seek to address these problems in a similarly integrated fashion. We
-are approaching this in two ways: first, by developing an online platform
-that connects our participants and facilitates sharing and assessing ideas
-and action experiments operating in local, national and international
-arenas; and second, by organizing a series of in-person 
-<a href="workshops/">workshops</a> and other meetings of participants.
+           <?php
+    	    while ( have_posts() ) : the_post();
+	    the_content();
+            endwhile; // End of the loop.
+           ?>
 
+           <div class="rule black-rule"></div><!-- .black-rule -->
+           
+       </div><!-- .main-textcontainer -->
 
-<p>Please see the following for additional information:</p>
-
-<ul>
-
-<li>The <a href="manifesto/">SEED Manifesto</a> -- summarizes our analysis of
-the current situation and approach</li>
-
-<li><a href="resource-center/">Resource Center</a> -- a prototype
-version of a library of resources relevant to SEED</li>
-
-</ul>
-
-</div>
-
-        </div>
-        
-        <?php get_footer(); ?>
-    </div> 
-</div>
-
+       <?php get_footer(); ?>
+    </div><!-- .container -->
+</div><!-- .outer -->
 
 </html>

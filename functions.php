@@ -409,6 +409,8 @@ function seed_design_scripts() {
     wp_enqueue_style( 'Alfa Slab One', 'https://fonts.googleapis.com/css?family=Alfa+Slab+One', false );
 }
 
+add_theme_support( 'title-tag' );
+
 add_action( 'wp_enqueue_scripts', 'seed_design_scripts' );
 
 function echo_article_url($u) {
