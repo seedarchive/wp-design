@@ -406,12 +406,7 @@ body {
     display: inline-block;
 }
 
-#pagecontainer {
-    width: 597.3px;
-    display: inline-block;
-}
-
-#workshopcontainer {
+#staticpagecontainer {
     width: 597.3px;
     display: inline-block;
 }

@@ -14,23 +14,20 @@
 </head>
     
 <div id="outer">
-   <div id="container">
-        <?php get_header(); ?>
-
-       <div id="main-textcontainer">
-
-           <?php
-    	    while ( have_posts() ) : the_post();
-	    the_content();
-            endwhile; // End of the loop.
-           ?>
-
-           <div class="rule black-rule"></div><!-- .black-rule -->
-           
-       </div><!-- .main-textcontainer -->
-
-       <?php get_footer(); ?>
-    </div><!-- .container -->
-</div><!-- .outer -->
+  <div id="container">
+    <?php get_header(); ?>
+    <div id="main-textcontainer">
+      <div id="staticpagecontainer">
+        <?php
+          while ( have_posts() ) : the_post();
+            the_content();
+          endwhile; // End of the loop.
+        ?>
+      </div><!--#staticpagecontainer -->
+      <div class="rule black-rule"></div><!-- .black-rule -->
+    </div><!-- #main-textcontainer -->
+    <?php get_footer(); ?>
+  </div><!-- #container -->
+</div><!-- #outer -->
 
 </html>
